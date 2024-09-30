@@ -1,0 +1,31 @@
+.todolist {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+.inputs {
+  width: 100%;
+  display: block;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+.inputs:focus {
+  outline: none;
+}
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-color: greenyellow;
+  padding: 12px 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+}
